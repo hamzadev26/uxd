@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Affordable Branding & Design Services | UXD Consults</title>
+  <title>Affordable Branding & Design Services | UXD Consults UK</title>
   <meta name="description" content="UXD Consults is a leading branding and design agency that provides affordable branding and design services to businesses of all sizes.">
   <meta name="keywords" content="branding, design, agency, affordable, branding and design services, branding and design agency, branding and design company, branding and design firm, branding and design services, branding and design company, branding and design firm, branding and design services">
   <meta name="author" content="UXD Consults">
