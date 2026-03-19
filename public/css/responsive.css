@@ -92,9 +92,9 @@
     padding-bottom: 20px;
   }
 
-  .main-header.fixed-header .nav-outer .mobile-nav-toggler {
+  /* .main-header.fixed-header .nav-outer .mobile-nav-toggler {
     margin-top: 20px;
-  }
+  } */
 
   .header-style-two.fixed-header .nav-outer .mobile-nav-toggler {
     color: #fff;
@@ -341,7 +341,7 @@
   }
 
   .banner-carousel .content-box .link-box {
-    padding-top: 30px;
+    padding-top: 5px;
   }
 
   .banner-three .banner-carousel .content-box .inner {
@@ -783,7 +783,7 @@
   }
 
   .fact-counter .column .inner .count-outer {
-    font-size: 64px;
+    font-size: 36px;
     line-height: 1em;
   }
 

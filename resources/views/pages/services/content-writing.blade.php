@@ -13,7 +13,7 @@ Content Writing Services | UXD Consults
         <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -152,7 +152,7 @@ Content Writing Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
                                     DESIGN</span> |
                                   EXPRESSION WITH SIMPLICITY</span></h2>
                               <p class="pera">Minimalist illustrations are a key component in an
@@ -181,7 +181,7 @@ Content Writing Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE
                                     LOGO DESIGN</span> |
                                   FREEDOM WITH COMPLEXITY</span></h2>
                               <p class="pera">With an illustrative logo comes the freedom to
@@ -209,7 +209,7 @@ Content Writing Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
                                     LOGO</span> | THE PERFECT
                                   BLEND TO START WITH</span></h2>
                               <p class="pera">If you are looking for a fresh start, then
@@ -285,27 +285,88 @@ Content Writing Services | UXD Consults
                 <div class="service-details">
                   <div class="text-content">
         
+                    {{-- Web Copy Writing --}}
                     <div class="featured">
                       <div class="row clearfix">
-                        <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
                           <div class="image">
-                            <img src="https://uxdconsults.com/assets/1-CG-BgvQR.png" alt="img" class="web-img">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/content/ICON-38.png" alt="img"
+                              class="web-img">
                           </div>
                         </div>
-                        <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
                           <div class="inner">
-                            <h4><span class="text-black theme-color">BLOG POSTS</span> |
-                              ENGAGE YOUR AUDIENCE</h4>
-                            <p>Blog posts are a great way to engage your audience and build trust. They can help you establish
-                              yourself as an authority in your field and attract more customers. We can help you write blog
-                              posts that are engaging, informative, and persuasive. We can also help you optimize your blog
-                              posts for SEO, so you can rank higher in search engines and attract more traffic to your website.
-                            </p>
-        
-                            <p class="pera">Come onboard with uxd Consults to get the best content writing services at prices.
-                            </p>
-        
-        
+                            <h4>Artical Writing | <span class="text-black theme-color">WEB COPYWRITING</span></h4>
+                            <p class="pera mb-3">The content of your website will dramatically influence your sales. You can only convince
+                              visitors to become valued customers through content. We, at <span
+                                class="theme-color text-black">UXD Consults</span>, have a team of highly
+                              experienced technical writers who've had years of web copywriting experience in all forms. We cover almost
+                              every field, from engineering to arts, business to human sciences.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Seo Copy Writing --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4>Blog Writing | <span class="text-black theme-color">SEO COPYWRITING</span></h4>
+                            <p class="pera mb-3">SEO copywriting is not about stuffing keywords or producing material that is just pleasant
+                              to search engines. With recent developments in quality testing for search engines, it is now imperative that
+                              websites also have reader-friendly content. Now quality takes precedence over quantities. We at <span
+                                class="theme-color text-black">UXD Consults</span> have always assumed that we cannot sacrifice quality content.</p>
+                    
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/content/ICON-39.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Adverstising Copy Writing --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/content/ICON-40.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4>Press Release | <span class="text-black theme-color">ADVERTISING COPYWRITING</span></h4>
+                            <p class="pera mb-3">When it comes to copywriting ads, making tall promises isn't quite enough. It needs
+                              simpler, but powerful terms that connect with the audience's purchasing psyche. <span
+                                class="theme-color text-black">UXD Consults</span> has decades of experience in writing outstanding promotional material on any
+                              and all kinds of platforms for thousands of companies.</p>
+                    
                             <div class="link-box">
                               <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
                                 <i class="btn-curve"></i>
@@ -320,7 +381,72 @@ Content Writing Services | UXD Consults
                         </div>
                       </div>
                     </div>
-        
+
+                    {{-- Creative Copy Writing --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4>SEO Content | <span class="text-black theme-color">CREATIVE WRITING</span></h4>
+                            <p class="pera mb-3">For an organization to be successful, a nuanced combination of innovation and
+                              professionalism is desperately needed. This is where <span class="theme-color text-black">UXD Consults</span> will be of assistance. In an
+                              enticing sound, our deeply imaginative writers have the ability to address even the dullest information. So,
+                              boost the creativity of your business and outshine your rivals!</p>
+                    
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/content/ICON-41.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Professional Writing --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/content/ICON-42.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4>Website Content | <span class="text-black theme-color">PROFESSIONAL WRITING</span></h4>
+                            <p class="pera mb-3">If it's letters to an investor or a resume to a prospective boss, it can make a big
+                              difference to have grammatically accurate, factually accepted material. <span class="theme-color text-black">UXD Consults</span> will help if you need
+                              assistance with getting proposals or white papers finished. Not just company, but we also support people with
+                              resume and cover writing, so we have addressed the technical writing needs of everyone.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
                 
                   </div>
                 </div>

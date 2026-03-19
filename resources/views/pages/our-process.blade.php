@@ -13,7 +13,7 @@ Our Process | UXD Consults
         <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -36,7 +36,7 @@ Our Process | UXD Consults
         <section class="faqs-section">
           <div class="auto-container">
             <div class="row clearfix">
-              <div class="sec-title custom-div">
+              <div class="sec-title custom-div our-process-section-title">
                 <h2 class="text-uppercase text-thin thin-text"> LET US WALK YOU THROUGH OUR</h2>
                 <h2 class="mt-4 mb-4"><span class="theme-color brand-name-2 text-black">PROCESS</span></h2>
                 <p class="pera mt-3"><span class="theme-color text-black bold-text">UXD Consults </span>strives to fulfill your

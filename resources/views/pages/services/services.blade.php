@@ -13,7 +13,7 @@
 <!-- Banner Section -->
 <section class="page-banner">
   <div class="image-layer"
-    style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+    style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
   <div class="shape-1"></div>
   <div class="shape-2"></div>
   <div class="banner-inner">
@@ -42,9 +42,9 @@
           <div class="inner-box wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-monitor"></span></div>
-            <h5><a href="#">Website <br>Development</a></h5>
+            <h5><a href="/web-design">Website <br>Development</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/web-design"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -53,9 +53,9 @@
           <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-app-development"></span></div>
-            <h5><a href="#">App <br>Development</a></h5>
+            <h5><a href="/app-development">App <br>Development</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/app-development"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -65,9 +65,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-ui"></span></div>
-            <h5><a href="#">Ui/UX<br>Designing</a></h5>
+            <h5><a href="/ui-ux-design">Ui/UX<br>Designing</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/ui-ux-design"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -77,9 +77,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-development"></span></div>
-            <h5><a href="#">seo & content <br>writing</a></h5>
+            <h5><a href="/branding">Branding</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/branding"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -89,9 +89,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-digital"></span></div>
-            <h5><a href="#">MARKETING <br>STRATEGY</a></h5>
+            <h5><a href="/content-writing">Content Writing</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/content-writing"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -101,9 +101,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-instant-camera"></span></div>
-            <h5><a href="#">Digital <br>Products</a></h5>
+              <h5><a href="/seo">SEO</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/seo"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -113,9 +113,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-monitor"></span></div>
-            <h5><a href="#">Website <br>Development</a></h5>
+            <h5><a href="/hosting">Hosting</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/hosting"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -125,9 +125,9 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-computer"></span></div>
-            <h5><a href="#">GRAPHIC DESIGNING</a></h5>
+            <h5><a href="/2d-3d-animation">2D/3D Animation</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/2d-3d-animation"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 

@@ -343,10 +343,15 @@
       $(".search-popup").removeClass("active");
       e.preventDefault();
     });
-    //Hide Popup
+    //Hide Popup on X button
+    $("#btn-close-modal").on("click", function (e) {
+      $(".search-popup").removeClass("active");
+      e.preventDefault();
+    });
+    //Hide Popup on ESC key
     $(document).keydown(function (e) {
       if (e.keyCode === 27) {
-        $(".search-popup").addClass("active");
+        $(".search-popup").removeClass("active");
       }
     });
   }

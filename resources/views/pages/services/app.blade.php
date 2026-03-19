@@ -12,7 +12,7 @@ App Development Services | UXD Consults
 <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>  
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -150,7 +150,7 @@ App Development Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
                               DESIGN</span> |
                             EXPRESSION WITH SIMPLICITY</span></h2>
                         <p class="pera">Minimalist illustrations are a key component in an
@@ -179,7 +179,7 @@ App Development Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
                               DESIGN</span> |
                             FREEDOM WITH COMPLEXITY</span></h2>
                         <p class="pera">With an illustrative logo comes the freedom to
@@ -207,7 +207,7 @@ App Development Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
                               LOGO</span> | THE PERFECT
                             BLEND TO START WITH</span></h2>
                         <p class="pera">If you are looking for a fresh start, then
@@ -283,31 +283,163 @@ App Development Services | UXD Consults
                 <div class="service-details">
                   <div class="text-content">
         
+                    {{-- iOS App Development --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/app/ICON-23.png" alt="img" class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4><span class="text-black theme-color">IOS APP DEVELOPMENT</span> | SECURITY &amp; PERFECTION</h4>
+                            <p class="pera"><span class="theme-color text-black">UXD Consults</span> mobile app developers thrive at iOS app development. Our exclusive team of
+                              Swift and Objective-C developers code with perfection. From popular niches to social media or music, to
+                              location-based apps. We have finalized well over a thousand applications. Our app developers have fulfilled
+                              the high-end security standards of the platform. Resulting in mobile applications that are secure, smart, and dynamic.</p>
+                            <p class="pera mb-3">We aim to direct your vision towards creating an enhanced experience. That’s why you can
+                              rely on us 100%.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- Android App Development -->
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4><span class="text-black theme-color">ANDROID APP DEVELOPMENT</span> | LIMITLESS FUNCTIONALITY</h4>
+                            <p class="pera">Although iOS apps are known to have a higher level of perfection. Firstly, android app
+                              development gets you a greater audience. The use of Android as an operating system is immensely popular. Their
+                              platform offers more opportunities for customization. Another notable achievement of Android Apps is offering
+                              endless functionalities. Due to iOS’s limited nature, many users have transitioned to Android to avail its
+                              limitless features. Moreover, the platform makes marketing easier. Resulting in a higher Return on Investments
+                              (RoI).</p>
+                            <p class="pera"><span class="theme-color text-black">UXD Consults</span> is equally proficient in android app development. We have a prominent
+                              reputation in the application development community.</p>
+                            <p class="pera">Our mobile app developers are dedicated to giving your project special treatment.</p>
+                            <p class="pera mb-3"><span class="text-black">HIGH-END SECURITY | DYNAMIC FUNCTIONALITY | FAST SPEEDS</span></p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/app/ICON-24.png" alt="img" class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- React Native App Development -->
                     <div class="featured">
                       <div class="row clearfix">
                         <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
                           <div class="image">
-                            <img src="https://uxdconsults.com/assets/1-KHk7Yfaj.png" alt="img" class="web-img">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/app/ICON-25.png" alt="img" class="web-img">
                           </div>
                         </div>
                         <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
                           <div class="inner">
-                            <h4><span class="text-black theme-color">IOS APP DEVELOPMENT</span> |
-                              SECURITY AND PERFECTION</h4>
-                            <p>uxd Consults mobile app developers excel at creating iOS apps. Our specialized Swift and
-                              Objective-C development team
-                              produces flawless code. Popular niches include social media and music, as well as location based
-                              apps. We've finished
-                              well over a thousand applications. Our app developers met the platform's stringent security
-                              requirements. As a result,
-                              mobile applications become more secure, intelligent, and dynamic.</p>
-        
-        
-        
-                            <p class="pera">We want to focus your vision on delivering a better experience. That's why you can
-                              count on us 100%.</p>
-        
-        
+                            <h4>CROSS-PLATFORM APP DEVELOPMENT WITH <span class="text-black theme-color">REACT NATIVE</span></h4>
+                            <p class="pera">With a React Native App, you have the power to maximize functionality. Its cross-platform
+                              framework delivers non-stop performance. </p>
+                            <p class="pera">Cross-Platform or Hybrid Apps can save tons of your time. Therefore, resulting in diversely
+                              compatible solutions. With one React Native Application, you can simultaneously be on Android, iOS, and
+                              Windows platforms!</p>
+                            <p class="pera">We offer top React Native developers with impressive skillsets. Besides being experts on the
+                              React Native Framework, they are proficient in various programming languages.</p>
+                            <p class="pera">Team up with <span class="theme-color text-black">UXD Consults</span> today. We’ll your business a
+                              push with our exceptional mobile app development services.</p>
+                            <p class="pera mb-3"><span class="text-black">LEARN MORE ABOUT OUR WINDOWS APP DEVELOPMENT SOLUTIONS</span></p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Flutter App Development -->
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4>ENHANCED VISUAL EXPERIENCE WITH <span class="text-black theme-color">FLUTTER APP DEVELOPMENT</span></h4>
+                            <p class="pera">Get your business to stand out with Flutter App development. These applications work best to offer
+                              simulative learning and development. Advancements in Flutter technology have streamlined the process, making it
+                              understandable.</p>
+                            <p class="pera">We have in-house high-end Flutter testing hardware and 3D animation equipment. This has resulted in
+                              hundreds of successful projects. Besides lab tests, large-scale crowd testing is performed to ensure the most
+                              accurate results.</p>
+                            <p class="pera mb-3"><span class="theme-color text-black">UXD Consults</span> is dedicated to giving you an experience that feels as real as ever. Flutter technology makes us passionate about the now, and the future. Our regular activity has ensured the best
+                              service to our clients.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                    
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/app/ICON-26.png" alt="img" class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Custom Web App Development -->
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/app/ICON-29.png" alt="img" class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4><span class="text-black theme-color">CUSTOM WEB APP DEVELOPMENT</span> | BROADEN YOUR VISION</h4>
+                            <p class="pera">Custom Web Apps have the potential to be of the most complex types. With these, you can include
+                              all kinds of functionality. In customized web applications, you can employ a hybrid app framework. Plus,
+                              virtual or augmented reality functionalities can also be included.</p>
+                            <p class="pera mb-3"><span class="theme-color text-black">UXD Consults</span> is equipped with an incredible command over the latest tech. Subsequently
+                              exceeding the expectations of your customers. Our industry specialists create Web Applications with universal
+                              compatibility. With an enhanced performance you reach newer avenues every day.</p>
                             <div class="link-box">
                               <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
                                 <i class="btn-curve"></i>

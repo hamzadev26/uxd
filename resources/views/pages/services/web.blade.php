@@ -12,7 +12,7 @@ Website Design & Development Services | UXD Consults
         <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -142,7 +142,7 @@ Website Design & Development Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
                                     DESIGN</span> | EXPRESSION WITH SIMPLICITY</span></h2>
                               <p class="pera">Minimalist illustrations are a key component in an Iconic Logo. Illustrations like
                                 these help your brand express itself naturally. This keeps graphics simple, as well as highly
@@ -168,7 +168,7 @@ Website Design & Development Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE
                                     LOGO DESIGN</span> | FREEDOM WITH COMPLEXITY</span></h2>
                               <p class="pera">With an illustrative logo comes the freedom to explore. It allows for complexity
                                 to blend with breathtaking graphics. Well-defined illustrations take up a great deal of time and
@@ -194,7 +194,7 @@ Website Design & Development Services | UXD Consults
                           <div class="img order-md-last"></div>
                           <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                             <div class="desc w-100">
-                              <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
+                              <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
                                     LOGO</span> | THE PERFECT BLEND TO START WITH</span></h2>
                               <p class="pera">If you are looking for a fresh start, then typographic logos are a great option.
                                 Their combination of colors and fonts will create a stunning first impression. Plus, using an
@@ -266,11 +266,12 @@ Website Design & Development Services | UXD Consults
                 <div class="service-details">
                   <div class="text-content">
         
+                    <!-- WordPress -->
                     <div class="featured">
                       <div class="row clearfix">
                         <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
                           <div class="image">
-                            <img src="https://uxdconsults.com/assets/01-C_wB9EOA.png" alt="img" class="web-img">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/website/wordpress.png" alt="WordPress" class="web-img">
                           </div>
                         </div>
                         <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
@@ -290,7 +291,9 @@ Website Design & Development Services | UXD Consults
                               ready to assist you
                               with a oneof-a-kind webs design.</p>
         
-                            <p class="pera">Come onboard with uxd Consults to get the best WordPress web designs at prices.</p>
+                            <p class="pera mb-3"><b>Come onboard with <span
+                                  class="theme-color text-black">UXD Consults</span> to avail the best WordPress web
+                                designs at low costs.</b></p>
         
         
                             <div class="link-box">
@@ -308,23 +311,19 @@ Website Design & Development Services | UXD Consults
                       </div>
                     </div>
         
-                    <!-- <div class="featured rev-col">
+                    <!-- WooCommerce -->
+                    <div class="featured">
                                             <div class="row clearfix">
                                                 <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
                                                     <div class="inner">
-                                                        <h4>INTUITIVE DEVELOPMENT WITH <span
-                                                                class="text-black theme-color">HUBSPOT</span></h4>
-                                                        <p class="pera">Using the HubSpot CMS Hub has changed the game for many
-                                                            businesses and marketers. Providing content management and marketing, it can
-                                                            serve as an all-in-one solution. The HubSpot CRM is perfect for enterprises
-                                                            looking for a single solution to manage their client relationships while
-                                                            growing. Moreover, it integrates sales CRM and HubSpot’s email marketing
-                                                            tool with its CMS, ensuring a seamless workflow.</p>
-                                                        <p class="pera mb-3"><span class="text-thin">GO</span><span
-                                                                class="theme-color text-black">LOGO</span><span
-                                                                class="text-thin">NOW's</span><b> HubSpot Developers are fluent in
-                                                                custom integrations in the HubSpot API, CRM, and CMS. To start your
-                                                                project on HubSpot, get in touch with us today.</b></p>
+                                                        <h4>FLEXIBILITY WITH <span
+                                                                class="text-black theme-color">WOOCOMMERCE</span></h4>
+                                                        <p class="pera">WooCommerce, when paired with WordPress gives the best eCommerce web designs. It offers simple solutions to complex
+                                                        requirements while keeping aesthetics intact. On top of that, it provides many themes to go along with WooCommerce
+                                                        add-ons.</p>
+                                                        <p class="pera"><b>If you prefer WooCommerce, our WordPress developers can deliver custom eCommerce web designs
+                                                            with the perfect themes and plugins. Check out our post on <u>the growing eminence of WooCommerce Themes &amp;
+                                                              Plugins.</u></b></p>
                                                         <div class="link-box">
                                                             <a class="theme-btn btn-style-two search-toggler" href="#"
                                                                 onclick="return false">
@@ -340,12 +339,51 @@ Website Design & Development Services | UXD Consults
                                                 </div>
                                                 <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
                                                     <div class="image">
-                                                        <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/website/hubspot.png"
-                                                            alt="img" class="web-img">
+                                                        <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/website/woo.png"
+                                                            alt="WooCommerce" class="web-img">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> -->
+                                        </div>
+
+
+                        <!-- Shopify -->
+                        <div class="featured">
+                          <div class="row clearfix">
+                            <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                              <div class="image">
+                                <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/website/shopify.png" alt="Shopify" class="web-img">
+                              </div>
+                            </div>
+                            <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                              <div class="inner">
+                                <h4>RELIABILITY &amp; EASE WITH <span class="text-black theme-color">SHOPIFY</span></h4>
+                                <p class="pera">Shopify’s budget-friendly eCommerce solution is great news for online sellers. Even if you conduct your
+                                  business physically, Shopify can help meet your needs. It offers an organized store and inventory management, giving
+                                  rise to your online business. </p>
+                                <p class="pera">Shopify also provides a wide selection of themes to choose from. This gives a whole lot of options for
+                                  experimenting with different web designs. Another benefit of Shopify is that you can get multiple apps to integrate
+                                  into your ecommerce web design. Being an easy-to-use platform with great flexibility, Shopify can serve your commerce
+                                  needs.</p>
+                        
+                                <p class="pera mb-3"><span class="theme-color text-black">UXD Consults</span><b> specializes in developing robust online stores using Shopify. We’ll also integrate
+                                    dynamic eCommerce plugins, maximizing your store’s potential.</b></p>
+                        
+                        
+                                <div class="link-box">
+                                  <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                    <i class="btn-curve"></i>
+                                    <span class="btn-title">Get a Free Quote</span>
+                                  </a>
+                                  <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                    <i class="btn-curve"></i>
+                                    <span class="btn-title">Call us now</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                
         
                   </div>
                 </div>

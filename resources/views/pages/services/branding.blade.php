@@ -12,7 +12,7 @@ Branding  Services | UXD Consults
         <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -150,7 +150,7 @@ Branding  Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
                               DESIGN</span> |
                             EXPRESSION WITH SIMPLICITY</span></h2>
                         <p class="pera">Minimalist illustrations are a key component in an
@@ -179,7 +179,7 @@ Branding  Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
                               DESIGN</span> |
                             FREEDOM WITH COMPLEXITY</span></h2>
                         <p class="pera">With an illustrative logo comes the freedom to
@@ -207,7 +207,7 @@ Branding  Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
                               LOGO</span> | THE PERFECT
                             BLEND TO START WITH</span></h2>
                         <p class="pera">If you are looking for a fresh start, then
@@ -283,35 +283,345 @@ Branding  Services | UXD Consults
                 <div class="service-details">
                   <div class="text-content">
         
+                    {{-- Stationary Design --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-30.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Professional Business
+                                  <span class="text-black theme-color">STATIONERY DESIGNS</span>
+                                </span>
+                                <span class="small-headings-2 text-bold letter-spacing-2"> BUSINESS CARD DESIGN | LETTERHEAD DESIGN</span>
+                              </span>
+                            </h4>
+                            <p class="pera">Elaborate stationery designs define your worth as a company. They include business card designs,
+                              letterheads, and envelopes. An ingenious stationery design furnishes your professional image. Plus, these
+                              intricate efforts help you stand out, as they enhance your brand expression.</p>
+                            <p class="pera mb-3">Our branding agency structures a brand strategy based on the themes of your company. Using
+                              these themes, we brainstorm ideas for your brand personality and logo. After this has been finalized, our
+                              visual creators implement these on your business cards and other stationery designs.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Modern Poster Design --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Reach your audience with eye-catching</span>
+                                <span class="text-black theme-color">MODERN POSTER DESIGN</span>
+                              </span>
+                            </h4>
+                            <p class="pera">Poster Designs are best when they are made as simply as possible. Cluttering the poster with
+                              unnecessary information can mislead your target audience. That is why our content specialists employ effective
+                              brand copy techniques. Eloquently delivering your poster design to your audience.</p>
+                            <p class="pera mb-3">We focus on increasing the impact of your poster design through the perfect combination of
+                              content and visuals. Our branding agency is dedicated to helping you convey your company’s mission. We help
+                              you achieve that through a personalized custom poster design; creating reputation and confidence.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-31.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Creative Brouchure Design & Flyer Design --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-32.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Execute your marketing strategy with a </span>
+                                <span class="text-black theme-color">CREATIVE BROCHURE DESIGN &amp; FLYER DESIGN</span>
+                              </span>
+                            </h4>
+                            <p class="pera">A creative brochure design can deliver a great first impression. They also value to your brand,
+                              increases your company’s visibility. When distributed mindful among your target audience, it gives rewarding
+                              results, making it an efficient marketing strategy.</p>
+                            <p class="pera mb-3">Our branding design professionals and graphic artists are equipped to create the best
+                              templates for your modern brochure designs and flyer designs. We prioritize your objective and reflect it
+                              precisely through attractive graphics. Implementing these techniques results in an impactful marketing
+                              strategy for your brand.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Custom Product Packaging Design --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Captivate your offline audience with an attractive</span>
+                                <span class="text-black theme-color">CUSTOM PRODUCT PACKAGING DESIGN</span>
+                              </span>
+                            </h4>
+                            <p class="pera">Product Packaging Designs are always evolving. As the market progresses, there is an innovation
+                              in the aesthetics and artworks used. Their potential to represent your company on both online and offline
+                              domains makes them an integral part of your branding design strategy.</p>
+                            <p class="pera mb-3">Branding Professionals at <span
+                                class="theme-color text-black">UXD Consults</span> will create a brand strategy
+                              before beginning. This drives the conceptualization of better ideas and visual tactics to use. Plus, with a
+                              clear picture of aesthetics and target audience in mind, an effective strategy can be executed. All this
+                              results in an attractive product packaging design.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-33.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Book & Magazine Design --}}
                     <div class="featured">
                       <div class="row clearfix">
                         <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
                           <div class="image">
-                            <img src="https://uxdconsults.com/assets/1-CjHY41W5.png" alt="img" class="web-img">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-34.png" alt="img"
+                              class="web-img">
                           </div>
                         </div>
                         <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
                           <div class="inner">
-                            <h4><span class="text-black theme-color">BRANDING STRATEGY</span> |
-                              VISUAL DESIGN</h4>
-                            <p>Your company's brand identity is the foundation for any successful marketing plan. It's essential
-                              for defining your
-                              target audience, setting expectations, and instilling familiarity and trust in your customers.
-                              Logos, business cards,
-                              letterheads, envelopes, and seal stamps are essential for identifying your items from those of
-                              your competitors.</p>
-        
-                            <p>Developing an appealing brand identity entails conducting a thorough review of all aspects of
-                              your product. This
-                              involves smart design, high quality components, and a consistent marketing message. Every aspect
-                              should convey your
-                              company's values, mission, and unique selling qualities</p>
-        
-                            <p class="pera">Come onboard with uxd Consults to get the best branding services at prices.</p>
-        
-        
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Simple, yet intriguing, </span>
+                                <span class="text-black theme-color">BOOK/MAGAZINE DESIGNS</span>
+                              </span>
+                            </h4>
+                            <p class="pera">A great magazine or book design calls for a layout that is engaging and striking at first sight.
+                              Usually, the target audience for books or magazines is highly knowledgeable and hence demands perfection.</p>
+                            <p class="pera mb-3">With our expert graphic artists, a strongly composed book or magazine design is assured.
+                              Our research in visual elements, color, typography, and texture has led our professionals to deeply understand
+                              the cognitive meaning behind each element. Adopting this approach, we will understand your strategy and lead
+                              your project in the right direction.</p>
                             <div class="link-box">
                               <a class="theme-btn btn-style-two search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Custom T-Shirt Design --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-black theme-color line-break">CUSTOM T-SHIRT DESIGN</span>
+                              <span class="text-initial text-bold">for your brand.</span>
+                            </h4>
+                            <p class="pera">One of the trickiest forms of branding is apparel. But once becoming successful, it can serve as
+                              one of the most effective marketing strategies.</p>
+                            <p class="pera mb-3">When straightforward techniques go into creating a custom t-shirt design maker, it makes
+                              your audience actually love what’s made. We select highly wearable and comfortable fabric for everything. Be
+                              it t-shirt designs or hoodie designs. This is followed by fine tailoring of the fabric, topped with visuals
+                              that your audience will absolutely adore.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-35.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Banner Design --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-36.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Generate high traffic with interactive </span>
+                                <span class="text-black theme-color">BANNER DESIGNS</span>
+                              </span>
+                            </h4>
+                            <p class="pera">As posters can serve a great marketing purpose on the offline domain, banner designs are proven
+                              to be crucial for online marketing. A single banner design can provide you with high chances of generating
+                              leads, and boost your web or app traffic.</p>
+                            <p class="pera mb-3">One of the fundamentals of a well-planned banner is good copy. You have to have a
+                              conversation with your audience and not empty promises. With our branding agency housing a professional team
+                              of copywriters and graphic artists, your worries remain no more. <span
+                                class="theme-color text-black">UXD Consults</span> leads constructive projects,
+                              creating banner adverts that make your target audience feel belonged.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Social Media Design --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Boost your online reach with, </span>
+                                <span class="text-black theme-color">SOCIAL MEDIA DESIGNS</span>
+                              </span>
+                            </h4>
+                            <p class="pera">Our team focuses on producing captivating social media designs that your target users are sure
+                              to love. Understanding who is interested in your services is vital, this will lead to the next step; creating
+                              media. These visual delicacies will be oriented towards the likes of your audience, motivating a boost in your
+                              online reach.</p>
+                            <p class="pera">Social Media Designs can include social media banners, mini snippets, animations, and other
+                              visual brand content. When you partner with <span
+                                class="theme-color text-black">UXD Consults</span>, our graphic professionals will
+                              also offer to manage your social media posting and other social platform functions. </p>
+                            <p class="pera mb-3"><b>You can learn more about our SOCIAL MEDIA MARKETING SERVICES here.</b></p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-37.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Advertising Campaign --}}
+                    <div class="featured">
+                      <div class="row clearfix">
+                        <div class="image-col col-md-6 col-sm-12 aos-init" data-aos="fade-right">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-43.png" alt="img"
+                              class="web-img">
+                          </div>
+                        </div>
+                        <div class="text-col col-md-6 col-sm-12 aos-init" data-aos="fade-left">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Let your brand burst into your target market with compelling </span>
+                                <span class="text-black theme-color">ADVERTISING CAMPAIGNS</span>
+                              </span>
+                            </h4>
+                            <p class="pera">Advertising Campaigns powered by innovation generate valuable leads for your company. Ad
+                              Campaigns usually have an emphasis on a single brand message, with a goal in mind. To accomplish that goal,
+                              investing in your audience’s mindset is required. And that is what <span
+                                class="theme-color text-black">UXD Consults</span> promises you.</p>
+                            <p class="pera mb-3">With a special emphasis on the thorough research of your target audience, we are dedicated
+                              to making the job easier for you. We will assign your project with a dedicated ad campaign manager to assist
+                              you during the process. Finally, your brand’s presence will boom its way into your target market.</p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#">
                                 <i class="btn-curve"></i>
                                 <span class="btn-title">Get a Free Quote</span>
                               </a>

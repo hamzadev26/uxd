@@ -72,10 +72,10 @@
                 <ul class="navigation clearfix">
                   <li class="{{ request()->path() === '' ? 'current' : '' }}"><a href="/">Home</a>
                   </li>
-                  <li class="{{ request()->is('about-us') ? 'current' : '' }} dropdown">
+                  <li class="{{ request()->is('about-us') ? 'current' : '' }}">
                     <a href="/about-us">About Us</a>
                   </li>
-                  <li class="{{ request()->is('services', 'web-design', 'app-development', 'ui-ux-design', 'branding', 'content-writing', 'seo') ? 'current' : '' }} dropdown"><a href="/services">Services</a>
+                  <li class="{{ request()->is('services', 'web-design', 'app-development', 'ui-ux-design', 'branding', 'content-writing', 'seo', 'hosting', '2d-3d-animation') ? 'current' : '' }} dropdown"><a href="/services">Services</a>
                     <ul>
                       <li><a href="/web-design">Website Development</a></li>
                       <li><a href="/app-development">App Development</a></li>
@@ -83,15 +83,17 @@
                       <li><a href="/branding">Branding</a></li>
                       <li><a href="/content-writing">Content Writing</a></li>
                       <li><a href="/seo">SEO</a></li>
+                      <li><a href="/hosting">Hosting</a></li>
+                      <li><a href="/2d-3d-animation">2D/3D Animation</a></li>
                       
                       
                     </ul>
                   </li>
-                  <li class="{{ request()->is('portfolio') ? 'current' : '' }} dropdown"><a href="/portfolio">Portfolio</a>
+                  <li class="{{ request()->is('portfolio') ? 'current' : '' }}"><a href="/portfolio">Portfolio</a>
                   </li>
-                  <li class="{{ request()->is('our-process') ? 'current' : '' }} dropdown"><a href="/our-process">Our Process</a>
+                  <li class="{{ request()->is('our-process') ? 'current' : '' }}"><a href="/our-process">Our Process</a>
                   </li>
-                  <li class="{{ request()->is('contact-us') ? 'current' : '' }} dropdown"><a href="/contact-us">Contact Us</a>
+                  <li class="{{ request()->is('contact-us') ? 'current' : '' }}"><a href="/contact-us">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -128,7 +130,7 @@
       <div class="side-menu__block-inner ">
         <div class="side-menu__top justify-content-end">
 
-          <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="images/icons/close-1-1.png" alt=""></a>
+          <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="images/icons/close-1-1.png" alt="UXD Consults" title="UXD Consults"></a>
         </div><!-- /.side-menu__top -->
 
 
@@ -151,6 +153,139 @@
       </div><!-- /.side-menu__block-inner -->
     </div><!-- /.side-menu__block -->
 
+    {{-- Quote Popup Start --}}
+    <div class="search-popup">
+      <div class="search-popup__overlay custom-cursor__overlay">
+        <div class="cursor" style="top: 588px; left: 56px;"></div>
+        <div class="cursor-follower" style="top: 566px; left: 34px;"></div>
+      </div>
+      <div class="search-popup__inner">
+        <section class="contact-section popup-sec contact-two">
+          <div class="auto-container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-two__content">
+                  <div class="sec-title">
+                    <h3 class="text-center"><span class="text-black text-uppercase">Request a <span class="theme-color">free
+                          quote.</span></span></h3>
+                    <button id="btn-close-modal">X</button>
+                  </div>
+                  <p class="footer-nine__contact__text text-center">
+                    Your success story begins here - Request a free quote and make it happen!
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-box">
+                  <div class="default-form">
+                    <form method="post" action="#" novalidate="novalidate" id="get-quote-form">
+                      <div class="row clearfix">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <div class="field-inner">
+                            <input type="text" name="quote_fname" id="quote_fname" class="popup-txt" placeholder="Full Name"
+                              required="">
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <div class="field-inner">
+                            <input type="email" name="quote_email" id="quote_email" class="popup-txt"
+                              placeholder="Email Address" required="">
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <div class="field-inner">
+                            <input type="number" name="quote_phone" id="quote_phone" class="popup-txt"
+                              placeholder="Phone Number" required="" pattern="[0-9]*">
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                          <div class="field-inner">
+                            <select name="quote_estimate_budget" id="quote_estimate_budget" class="popup-txt"
+                              placeholder="Estimate Budget">
+                              <option value="">Estimate Budget</option>
+                              <option value="$1000-$10,000">$1000 - $10,000</option>
+                              <option value="$10,000-$50,000">$10,000 - $50,000</option>
+                              <option value="$50,000-$100,000">$50,000 - $100,000</option>
+                              <option value="$100,000-$10,00,000">$100,000 - $10,00,000</option>
+                              <option value="Discuss">Discuss</option>
+                            </select>
+                          </div>
+                        </div>
+                        <h4><span class="text-black">Project Type<span class="dot">.</span></span></h4>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera">
+                              <input type="checkbox" name="project_type" class="project_type" id="project_type"
+                                value="Website"> Website
+                            </p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Mobile Application"> Mobile Application</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Branding"> Branding</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Logo &amp; Graphic Design"> Logo &amp; Graphic Design</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Digital Marketing"> Digital Marketing</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Game Design &amp; Development"> Game Design &amp; Development</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                          <div class="field-inner">
+                            <p class="pera"><input type="checkbox" name="project_type" class="project_type"
+                                id="project_type" value="Other Services"> Other Services</p>
+                          </div>
+                        </div>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                          <div class="field-inner">
+                            <textarea name="quote_message" id="quote_message" placeholder="Project Details" cols="2"
+                              required=""></textarea>
+                          </div>
+                        </div>
+                        <input type="hidden" name="quote_form_type" id="quote_form_type" value="quote_request">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                          <a class="theme-btn btn-style-one quote_send">
+                            <i class="btn-curve"></i>
+                            <span class="btn-title">Send now</span>
+                          </a>
+                        </div>
+                        <div class="alert alert-success success-msg" id="success-msg" role="alert">
+                          Thanks for contacting us.
+                        </div>
+                        <div class="alert alert-danger danger-msg" id="danger-msg" role="alert">
+                          Something went wrong.
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    {{-- Quote Popup End --}}
 
 {{-- Header Section End --}}
 
@@ -221,8 +356,8 @@
                   <div class="col-md-6 col-sm-12">
                     <ul>
                       <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms of Use</a></li>
+                      <li><a href="/privacy-policy">Privacy Policy</a></li>
+                      <li><a href="/terms-conditions">Terms & Conditions</a></li>
                     </ul>
                   </div>
                 </div>

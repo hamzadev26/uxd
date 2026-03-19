@@ -12,7 +12,7 @@ About Us | UXD Consults
 
         <!-- Banner Section -->
         <section class="page-banner">
-          <div class="image-layer" style="background-image:url(https://uxdconsults.com/assets/about-banner-DsOnV5FS.jpeg);">
+          <div class="image-layer" style="background-image:url({{ asset('images/breadbg/banner.jpeg') }});">
           </div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>

@@ -57,6 +57,22 @@ Route::get('/web-design', function () {
     return view('pages.services.web');
 });
 
+Route::get('/hosting', function () {
+    return view('pages.services.hosting');
+});
+
+Route::get('/2d-3d-animation', function () {
+    return view('pages.services.2d-3d-animation');
+});
+
 Route::get('/contact-us', function () {
     return view('pages.contact');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+});
+
+Route::get('/terms-conditions', function () {
+    return view('pages.terms-conditions');
 });

@@ -619,7 +619,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 40px 0px;
+  padding: 20px 0px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -1942,11 +1942,11 @@ img {
   position: relative;
   float: right;
   font-size: 30px;
-  line-height: 40px;
+  /* line-height: 40px; */
   cursor: pointer;
   margin-left: 0px;
   color: var(--thm-base);
-  margin: 40px 0px 0px;
+  margin: 35px 0px 0px;
   display: none;
 }
 
@@ -12547,7 +12547,7 @@ img.lazy-image.loaded {
   width: 22px;
   height: 22px;
   /* display: block; */
-  display: none;
+  display: block;
   text-align: center;
   border: none;
   outline: none;

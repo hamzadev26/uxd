@@ -11,7 +11,7 @@ UI/UX Designing Services | UXD Consults
 <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer"
-            style="background-image:url(https://pixydrops.com/linoorhtml/images/background/image-7.jpg);"></div>
+            style="background-image:url({{ asset('images/breadbg/banner1.webp') }});"></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
@@ -149,7 +149,7 @@ UI/UX Designing Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ICONIC LOGO
                               DESIGN</span> |
                             EXPRESSION WITH SIMPLICITY</span></h2>
                         <p class="pera">Minimalist illustrations are a key component in an
@@ -178,7 +178,7 @@ UI/UX Designing Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">ILLUSTRATIVE LOGO
                               DESIGN</span> |
                             FREEDOM WITH COMPLEXITY</span></h2>
                         <p class="pera">With an illustrative logo comes the freedom to
@@ -206,7 +206,7 @@ UI/UX Designing Services | UXD Consults
                     <div class="img order-md-last"></div>
                     <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
                       <div class="desc w-100">
-                        <h2><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
+                        <h2 class="ser-details-slider-heading"><span class="text-light letter-spacing-2 small-headings"><span class="text-black">TYPOGRAPHIC
                               LOGO</span> | THE PERFECT
                             BLEND TO START WITH</span></h2>
                         <p class="pera">If you are looking for a fresh start, then
@@ -312,6 +312,41 @@ UI/UX Designing Services | UXD Consults
                                 <span class="btn-title">Call us now</span>
                               </a>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {{-- Modern Poster Design --}}
+                    <div class="featured rev-col">
+                      <div class="row clearfix">
+                        <div class="text-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-right">
+                          <div class="inner">
+                            <h4 class="letter-spacing-0">
+                              <span class="text-initial text-bold">
+                                <span class="line-break">Create a user-friendly experience for your audience</span>
+                                <span class="text-black theme-color">UI/UX DESIGNING</span>
+                              </span>
+                            </h4>
+                            <p class="pera">UI/UX Designing is the process of creating a user-friendly experience for your audience. We can
+                              help you create a user-friendly experience for your audience, so you can attract more users to your website.</p>
+                            <p class="pera mb-3"><b>We can help you create a user-friendly experience for your audience, so you can attract more users to your website. We can help you create a user-friendly experience for your audience, so you can attract more users to your website.</b></p>
+                            <div class="link-box">
+                              <a class="theme-btn btn-style-two  search-toggler" href="#" onclick="return false">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Get a Free Quote</span>
+                              </a>
+                              <a class="theme-btn btn-style-one" href="tel:+19737378445">
+                                <i class="btn-curve"></i>
+                                <span class="btn-title">Call us now</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-col col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-left">
+                          <div class="image">
+                            <img src="https://gologonow.s3.us-west-1.amazonaws.com/images/icons/branding/ICON-31.png" alt="img"
+                              class="web-img">
                           </div>
                         </div>
                       </div>

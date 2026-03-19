@@ -31,10 +31,11 @@ Home
   </div>
 
   <div class="banner-carousel owl-theme owl-carousel">
+
     <!-- Slide Item -->
     <div class="slide-item">
       <video autoplay="" muted="" loop="" id="banner-video">
-        <source src="https://gologonow.s3.us-west-1.amazonaws.com/images/main-slider/video.mp4" type="video/mp4">
+        <source src="{{ asset('images/herosection/video.mp4') }}" type="video/mp4">
       </video>
       <div class="right-bottom-curve"></div>
       <div class="right-top-curve"></div>
@@ -52,7 +53,7 @@ Home
                   <i class="btn-curve"></i>
                   <span class="btn-title">Get a Free Quote</span>
                 </a>
-                <a class="theme-btn btn-style-one" href="contact.html">
+                <a class="theme-btn btn-style-one" href="/contact-us">
                   <i class="btn-curve"></i>
                   <span class="btn-title">Contact Us</span>
                 </a>
@@ -61,25 +62,20 @@ Home
                 <div class="sub-awards">
                   <p class="awards-text">Awards</p>
                 </div>
+                {{-- <div class="sub-awards">
+                  <img class="awards-img" alt="img" src="/images/herosection/trust-pilot.png">
+                </div> --}}
                 <div class="sub-awards">
-                  <iframe width="95" height="95"
-                    src="https://shareables.clutch.co/share/badges/1565432/44242?utm_source=clutch_top_company_badge&amp;utm_medium=image_embed"
-                    title="Top Clutch Software Developers Gaming United States"></iframe>
+                  <img class="awards-img" alt="img" src="/images/herosection/clutch.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.sitejabber.com/categories/mobile-app-development">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/sitejabber.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/sitejabber.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.gologonow.com/">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/bark.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/bark.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.designrush.com/agency/mobile-app-design-development/new-jersey">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/top-app.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/top-app.png">
                 </div>
               </div>
             </div>
@@ -91,7 +87,7 @@ Home
     <!-- Slide Item -->
     <div class="slide-item">
       <div class="image-layer"
-        style="background-image: url(https://gologonow.s3.us-west-1.amazonaws.com/images/main-slider/image.jpg);">
+        style="background-image: url({{ asset('images/herosection/image.jpg') }});">
       </div>
       <div class="right-bottom-curve"></div>
       <div class="right-top-curve"></div>
@@ -109,7 +105,7 @@ Home
                   <i class="btn-curve"></i>
                   <span class="btn-title">Get a Free Quote</span>
                 </a>
-                <a class="theme-btn btn-style-one" href="contact.html">
+                <a class="theme-btn btn-style-one" href="/contact-us">
                   <i class="btn-curve"></i>
                   <span class="btn-title">Contact Us</span>
                 </a>
@@ -118,25 +114,20 @@ Home
                 <div class="sub-awards">
                   <p class="awards-text">Awards</p>
                 </div>
+                {{-- <div class="sub-awards">
+                  <img class="awards-img" alt="img" src="/images/herosection/trust-pilot.png">
+                </div> --}}
                 <div class="sub-awards">
-                  <iframe width="95" height="95"
-                    src="https://shareables.clutch.co/share/badges/1565432/44242?utm_source=clutch_top_company_badge&amp;utm_medium=image_embed"
-                    title="Top Clutch Software Developers Gaming United States"></iframe>
+                  <img class="awards-img" alt="img" src="/images/herosection/clutch.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.sitejabber.com/categories/mobile-app-development">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/sitejabber.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/sitejabber.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.gologonow.com/">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/bark.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/bark.png">
                 </div>
                 <div class="sub-awards">
-                  <a target="_blank" href="https://www.designrush.com/agency/mobile-app-design-development/new-jersey">
-                    <img class="awards-img" alt="img"
-                      src="https://gologonow.s3.us-west-1.amazonaws.com/icons/badge/top-app.png"></a>
+                  <img class="awards-img" alt="img" src="/images/herosection/top-app.png">
                 </div>
               </div>
             </div>
@@ -163,9 +154,9 @@ Home
           <div class="inner-box wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-monitor"></span></div>
-            <h5><a href="#">Website <br>Development</a></h5>
+            <h5><a href="/web-design">Website <br>Development</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/web-design"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -174,9 +165,9 @@ Home
           <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-app-development"></span></div>
-            <h5><a href="#">App <br>Development</a></h5>
+            <h5><a href="/app-development">App <br>Development</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/app-development"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -185,9 +176,9 @@ Home
           <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-ui"></span></div>
-            <h5><a href="#">Ui/UX <br>Designing</a></h5>
+            <h5><a href="/ui-ux-design">Ui/UX <br>Designing</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/ui-ux-design"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -196,9 +187,9 @@ Home
           <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-development"></span></div>
-            <h5><a href="#">seo & content <br>writing</a></h5>
+            <h5><a href="/branding">Branding</a></h5>
             <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-            <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+            <div class="link-box"><a href="/branding"><span class="fa fa-angle-right"></span></a></div>
           </div>
         </div>
 
@@ -217,7 +208,7 @@ Home
       <div class="image-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
         <div class="inner">
           <div class="image-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img
-              src="https://pixydrops.com/linoorhtml/images/resource/featured-image-1.jpg" alt="">
+              src="{{ asset('images/about/home-about-img.webp') }}" alt="About Us Image">
           </div>
         </div>
       </div>
@@ -241,7 +232,7 @@ Home
             </ul>
           </div>
           <div class="link-box">
-            <a class="theme-btn btn-style-one" href="about.html">
+            <a class="theme-btn btn-style-one" href="/about-us">
               <i class="btn-curve"></i>
               <span class="btn-title">Learn More</span>
             </a>
