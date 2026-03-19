@@ -344,7 +344,7 @@ About Us | UXD Consults
                     <div class="image-col col-lg-5 col-md-6 col-sm-12">
                       <div class="inner">
                         <div class="image">
-                          <img src="images/resource/featured-image-14.jpg" alt="">
+                          <img src="https://pixydrops.com/linoorhtml/images/resource/featured-image-14.jpg" alt="">
                         </div>
                       </div>
                     </div>
